@@ -6,14 +6,7 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.*;
-import org.dom4j.Document;
-import org.dom4j.DocumentHelper;
-import org.dom4j.Element;
-import org.xml.sax.DocumentHandler;
-import net.sf.json.JSON;
-import net.sf.json.JSONObject;
 public class Test3 {
-
         private static final int SIZE = 4096;
         public static void main(String[] args) throws IOException {
             System.out.println("股票编码："+args[0]);
